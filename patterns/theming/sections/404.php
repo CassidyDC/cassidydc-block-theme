@@ -5,7 +5,6 @@
  * Inserter: No
  *
  * @package CassidyDC\BlockTheme\Patterns
- * @since 1.0.0
  * @version 1.0.0
  */
 
