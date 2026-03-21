@@ -12,7 +12,7 @@ namespace CassidyDC\BlockTheme;
 /**
  * Remove unwanted core styles
  */
-if ( ! function_exists( 'CassidyDC\BlockTheme\remove_core_block_styles' ) ) :
+if ( ! function_exists( __NAMESPACE__ . '\\remove_core_block_styles' ) ) :
 	/**
 	 * Remove unwanted core block style
 	 *
@@ -74,4 +74,4 @@ if ( ! function_exists( 'CassidyDC\BlockTheme\remove_core_block_styles' ) ) :
 	}
 endif;
 
-add_filter( 'block_type_metadata_settings', 'CassidyDC\BlockTheme\remove_core_block_styles', 10, 2 );
+add_filter( 'block_type_metadata_settings', __NAMESPACE__ . '\\remove_core_block_styles', 10, 2 );

@@ -12,7 +12,7 @@ namespace CassidyDC\BlockTheme;
 /**
  * Add favicons to HTML head
  */
-if ( ! function_exists( 'CassidyDC\BlockTheme\add_favicons_to_head' ) ) :
+if ( ! function_exists( __NAMESPACE__ . '\\add_favicons_to_head' ) ) :
 	/**
 	 * Add favicons to HTML head
 	 *
@@ -42,4 +42,4 @@ if ( ! function_exists( 'CassidyDC\BlockTheme\add_favicons_to_head' ) ) :
 
 endif;
 
-add_action( 'wp_head', 'CassidyDC\BlockTheme\add_favicons_to_head' );
+add_action( 'wp_head', __NAMESPACE__ . '\\add_favicons_to_head' );
