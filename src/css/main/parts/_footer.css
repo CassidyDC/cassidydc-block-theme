@@ -1,0 +1,11 @@
+/**
+ * MAIN: FOOTER
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+.site-footer {
+	background: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--white);
+}

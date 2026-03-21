@@ -1,0 +1,15 @@
+/**
+ * WP BLOCK: BUTTONS
+ *
+ * @package CassidyDC\BlockTheme\Styles
+ * @version 1.0.0
+ */
+
+/* :root {
+	:where(.wp-block-buttons) {
+		> .wp-block-button {
+			block-size: 100%;
+			text-wrap: balance;
+		}
+	}
+} */

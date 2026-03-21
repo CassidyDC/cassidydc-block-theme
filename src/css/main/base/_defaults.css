@@ -1,0 +1,99 @@
+/**
+ * MAIN: DEFAULTS
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizespeed;
+}
+
+img,
+picture {
+	block-size: auto;
+	max-inline-size: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+	max-inline-size: 100%;
+	font: inherit;
+}
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="submit"],
+textarea:focus {
+	transition:
+		color var(--transform-duration) ease-in-out,
+		border-color var(--transform-duration) ease-in-out,
+		opacity var(--transform-duration) ease-in-out;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+	appearance: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+input:not([type="checkbox"], [type="radio"], [type="submit"]),
+select,
+textarea {
+	inline-size: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+	text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+ol > li:last-of-type,
+ul > li:last-of-type {
+	margin-block-end: 0;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html,
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		scroll-behavior: auto !important;
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}

@@ -1,0 +1,15 @@
+/**
+ * MAIN: HEROES
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+/* --- PAGE HERO --- */
+.page-hero {
+	display: flex;
+}
+
+.page-hero .page-title {
+	margin-block: 0 !important;
+}

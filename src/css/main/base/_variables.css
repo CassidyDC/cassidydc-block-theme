@@ -1,0 +1,11 @@
+/**
+ * MAIN: VARIABLES (CSS CUSTOM PROPERTIES)
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+:root {
+	--f-rem: calc((1 / 16) * 1rem);
+	--transform-duration: 300ms;
+}
