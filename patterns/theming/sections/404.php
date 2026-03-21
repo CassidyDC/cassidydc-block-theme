@@ -10,8 +10,8 @@
 
 ?>
 
-<!-- wp:group {"tagName":"main","className":"main-content","layout":{"type":"default"}} -->
-<main id="main-content" class="wp-block-group main-content">
+<!-- wp:group {"tagName":"main","className":"page-content","layout":{"type":"default"}} -->
+<main id="main-content" class="wp-block-group page-content">
 	<!-- wp:group {"className":"four-oh-four-container","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group four-oh-four-container">
 		<!-- wp:heading {"textAlign":"center","className":"is-section-title"} -->
