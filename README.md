@@ -16,17 +16,14 @@ For those less familiar with Block Theme development, I provide a few guidelines
 
 ## Quick Start Guide
 
-### 1. Clone the CassidyDC Starter Theme locally
+> [!NOTE]
+> You can run the [DDEV WP Local Setup](https://github.com/CassidyDC/ddev-wp-local-setup) package to setup a local server using this theme and the CassidyDC Toolset. Or manually clone each package with the following steps:
 
-In your _wp-content/themes_ directory, run `git clone git@github.com:jacobcassidy/wordpress-starter-block-theme.git`.
+### 1. Clone the CassidyDC Block Theme locally
 
-### 2. Create your remote git repo and connect it to your local repo
+In your _wp-content/themes_ directory, run `git clone git@github.com:CassidyDC/cassidydc-block-theme.git`.
 
-If you use GitHub, create a new remote repo there and then update your local repo to connect with it by running: `git remote set-url origin <new-url>`. Make sure to replace `<new-url>` with your actual GitHub URL, such as `git@github.com:username/new-repository.git` or `https://github.com/username/new-repository.git`.
-
-You can confirm you're connected to the correct remote repo by running `git remote -v`.
-
-### 3. Replace the theme's placeholder text
+### 2. Replace the theme's placeholder text
 
 When you rename the theme to start your custom development, do a global **search and replace** in your code editor to replace the following texts _(keep the same formatting of lower/uppercase letters in your replacement text)_:
 
@@ -37,21 +34,11 @@ When you rename the theme to start your custom development, do a global **search
 | `CassidyDC Block Theme` | Theme Name       | `style.css`         |
 | `cassidydc`             | `HANDLE_PREFIX`  | `functions.php`     |
 
-### 4. Install the development packages
+### 3. Install the development packages for the build step
 
-In your theme's root directory, run `npm i`. This will install the packages and scripts listed in `package.json`. These packages and scripts are used to format, lint, and build your theme files using ESLint, Prettier, Stylelint, Webpack, and more (it's useful to have the [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), and [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) extensions installed if you use [Visual Studio Code](https://code.visualstudio.com/)).
+Copy the correct files in the [CassidyDC Toolset](https://github.com/CassidyDC/cassidydc-toolset) repo to your `wp-content` and `themes/cassidydc-block-theme` directories. Then run `npm install && composer install`
 
-To run a script listed in _package.json_, start the command with `npm run`.
-
-For example:
-
--   `npm run build` will build your files once for production.
--   `npm run start` will continually watch for any file changes and automatically build them as development files.
--   `npm run lint:css` will lint your css and scss files for any code standard issues or errors.
-
-These scripts come from the [@wordpress/scripts](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/) package.
-
-### 5. Install other VSCode extensions (optional)
+### 4. Install other VSCode extensions (optional)
 
 Other Visual Studio Code extensions you may find useful in your development (excluding those mentioned above) are:
 
