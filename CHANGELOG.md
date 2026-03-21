@@ -1,4 +1,4 @@
-# Changelog for CassidyDC WP Starter Block Theme
+# Changelog for CassidyDC Block Theme
 
 All notable changes to this project will be documented in this file.
 
@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 <!-- ## [Unreleased] -->
+
+## [2.3.0] - 2026-03-21
+
+### Added
+
+-   Added `front-page.html` template to use when the homepage is not a blog and differs from a normal page template.
+-   Added new properties to `theme.json` and set to false.
+
+### Changed
+
+-   Formatted SCSS files with CassidyDC Toolset package.
+-   Updated GitHub repo URL to match move from personal account to CassidyDC.
+-   Updated name from "CassidyDC WP Starter Block Theme" to "CassidyDC Block Theme".
+-   Updated namespaces and slugs to remove "WP Starter".
 
 ## [2.2.0] - 2025-02-01
 
