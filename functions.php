@@ -2,7 +2,7 @@
 /**
  * Theme Functions
  *
- * @package CassidyDC\WPStarterBlockTheme\Functions
+ * @package CassidyDC\BlockTheme\Functions
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  * @version 1.0.0
  */

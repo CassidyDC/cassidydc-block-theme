@@ -2,19 +2,19 @@
 /**
  * Remove unwanted Core WordPress features
  *
- * @package CassidyDC\WPStarterBlockTheme\Functions
+ * @package CassidyDC\BlockTheme\Functions
  * @version 1.0.0
  */
 
 declare( strict_types = 1 );
-namespace CassidyDC\WPStarterBlockTheme;
+namespace CassidyDC\BlockTheme;
 
 use WP_Block_Type_Registry;
 
 /**
  * Remove unwanted core blocks
  */
-if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\remove_core_blocks' ) ) :
+if ( ! function_exists( 'CassidyDC\BlockTheme\remove_core_blocks' ) ) :
 	/**
 	 * Remove unwanted core blocks
 	 *
@@ -34,12 +34,12 @@ if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\remove_core_blocks' ) ) :
 endif;
 
 // @phpstan-ignore return.void
-add_action( 'allowed_block_types_all', 'CassidyDC\WPStarterBlockTheme\remove_core_blocks' );
+add_action( 'allowed_block_types_all', 'CassidyDC\BlockTheme\remove_core_blocks' );
 
 /**
  * Remove core block patterns
  */
-if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\remove_core_block_patterns' ) ) :
+if ( ! function_exists( 'CassidyDC\BlockTheme\remove_core_block_patterns' ) ) :
 	/**
 	 * Remove core block patterns
 	 *
@@ -50,12 +50,12 @@ if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\remove_core_block_pattern
 	}
 endif;
 
-add_action( 'after_setup_theme', 'CassidyDC\WPStarterBlockTheme\remove_core_block_patterns' );
+add_action( 'after_setup_theme', 'CassidyDC\BlockTheme\remove_core_block_patterns' );
 
 /**
  * Remove Openverse
  */
-if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\disable_openverse' ) ) :
+if ( ! function_exists( 'CassidyDC\BlockTheme\disable_openverse' ) ) :
 	/**
 	 * Remove Openverse from the editor
 	 *
@@ -69,12 +69,12 @@ if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\disable_openverse' ) ) :
 	}
 endif;
 
-add_filter( 'block_editor_settings_all', 'CassidyDC\WPStarterBlockTheme\disable_openverse', 10, 1 );
+add_filter( 'block_editor_settings_all', 'CassidyDC\BlockTheme\disable_openverse', 10, 1 );
 
 /**
  * Remove the WordPress font library UI
  */
-if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\remove_font_library_ui' ) ) :
+if ( ! function_exists( 'CassidyDC\BlockTheme\remove_font_library_ui' ) ) :
 	/**
 	 * Remove the WordPress font library UI
 	 *
@@ -89,7 +89,7 @@ if ( ! function_exists( 'CassidyDC\WPStarterBlockTheme\remove_font_library_ui' )
 	}
 endif;
 
-add_filter( 'block_editor_settings_all', 'CassidyDC\WPStarterBlockTheme\remove_font_library_ui' );
+add_filter( 'block_editor_settings_all', 'CassidyDC\BlockTheme\remove_font_library_ui' );
 
 /**
  * Remove WordPress Remote Block Patterns from the editor block inserter.

@@ -2,12 +2,12 @@
 /**
  * Configuration functions to set assets properties
  *
- * @package CassidyDC\WPStarterBlockTheme\Functions
+ * @package CassidyDC\BlockTheme\Functions
  * @version 1.0.0
  */
 
 declare( strict_types = 1 );
-namespace CassidyDC\WPStarterBlockTheme;
+namespace CassidyDC\BlockTheme;
 
 /**
  * Sets theme assets properties
@@ -94,20 +94,20 @@ function get_editor_styles_config(): array {
 function get_block_pattern_categories_config(): array {
 	return [
 		'boxes'    => [
-			'label'       => __( 'Boxes', 'cassidydc-wp-starter-block-theme' ),
-			'description' => __( 'A collection of box patterns.', 'cassidydc-wp-starter-block-theme' ),
+			'label'       => __( 'Boxes', 'cassidydc-block-theme' ),
+			'description' => __( 'A collection of box patterns.', 'cassidydc-block-theme' ),
 		],
 		'heroes'   => [
-			'label'       => __( 'Heroes', 'cassidydc-wp-starter-block-theme' ),
-			'description' => __( 'A collection of header heroes patterns.', 'cassidydc-wp-starter-block-theme' ),
+			'label'       => __( 'Heroes', 'cassidydc-block-theme' ),
+			'description' => __( 'A collection of header heroes patterns.', 'cassidydc-block-theme' ),
 		],
 		'pages'    => [
-			'label'       => __( 'Pages', 'cassidydc-wp-starter-block-theme' ),
-			'description' => __( 'A collection of of full page layouts.', 'cassidydc-wp-starter-block-theme' ),
+			'label'       => __( 'Pages', 'cassidydc-block-theme' ),
+			'description' => __( 'A collection of of full page layouts.', 'cassidydc-block-theme' ),
 		],
 		'sections' => [
-			'label'       => __( 'Sections', 'cassidydc-wp-starter-block-theme' ),
-			'description' => __( 'A collection of page sections.', 'cassidydc-wp-starter-block-theme' ),
+			'label'       => __( 'Sections', 'cassidydc-block-theme' ),
+			'description' => __( 'A collection of page sections.', 'cassidydc-block-theme' ),
 		],
 	];
 }
