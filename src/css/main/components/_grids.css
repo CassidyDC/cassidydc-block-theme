@@ -12,7 +12,7 @@
 	display: grid;
 }
 
-.grid 	> * {
+.grid > * {
 	inline-size: 100%;
 }
 
