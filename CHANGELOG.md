@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- ## [Unreleased] -->
 
+## [3.0.0] - 2026-03-21
+
+### Added
+
+-   Added `assets/images/favicons` and `assets/images/logos` directories.
+-   Added starter patterns structure.
+
+### Changed
+
+-   Refactored and updated starting functions files.
+-   Refactored source file structure.
+-   Updated namespaces.
+-   Updated scheme version and file formatting for `theme.json`.
+-   Updated starting source stylesheets and scripts.
+-   Updated the 404 template with pattern.
+-   Updated theme details.
+
+### Removed
+
+-   Removed SCSS files and replaced with native nested CSS.
+
 ## [2.3.0] - 2026-03-21
 
 ### Added

@@ -7,45 +7,63 @@
  * @version 1.0.0
  */
 
+declare( strict_types = 1 );
+namespace CassidyDC\BlockTheme;
+
 /**
  * Create theme constants.
  *
  * @since 1.0.0
  */
 define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
-define( 'HANDLE_PREFIX', 'cassidydc' );
+define( 'HANDLE_PREFIX', 'cu' );
 
 /**
- * Sets theme assets config settings
+ * Initialize the assets loader
  *
  * @since 1.0.0
  */
-require_once get_theme_file_path( 'inc/assets-config.php' );
+require_once get_theme_file_path( 'includes/enqueue/init.php' );
 
 /**
- * Processes theme assets for registering and enqueueing
+ * Modify WordPress admin bar
  *
  * @since 1.0.0
  */
-require_once get_theme_file_path( 'inc/assets-process.php' );
+require_once get_theme_file_path( 'includes/core/admin-bar.php' );
 
 /**
- * Registers theme assets
+ * Modify WordPress permissions
  *
  * @since 1.0.0
  */
-require_once get_theme_file_path( 'inc/assets-register.php' );
-
-/**
- * Enqueues theme assets
- *
- * @since 1.0.0
- */
-require_once get_theme_file_path( 'inc/assets-enqueue.php' );
+// Before uncommenting the next line, update "USER_NAME" to the username of the user you want to allow SVG uploads for. This is a security risk, so be sure to only allow this for trusted users.
+// require_once get_theme_file_path( 'includes/core/admin-permissions.php' );
 
 /**
  * Removes unwanted Core WordPress features
  *
  * @since 1.0.0
  */
-require_once get_theme_file_path( 'inc/wp-core-cleanup.php' );
+require_once get_theme_file_path( 'includes/core/wp-cleanup.php' );
+
+/**
+ * Add animate script to HTML head
+ *
+ * @since 1.0.0
+ */
+require_once get_theme_file_path( 'includes/head/animate-script.php' );
+
+/**
+ * Add Favicons to HTML head
+ *
+ * @since 1.0.0
+ */
+require_once get_theme_file_path( 'includes/head/favicons.php' );
+
+/**
+ * Create [year] shortcode
+ *
+ * @since 1.0.0
+ */
+require_once get_theme_file_path( 'includes/shortcodes/year.php' );

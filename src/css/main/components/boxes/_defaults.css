@@ -1,0 +1,28 @@
+/**
+ * BOX - DEFAULT
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+/*
+ * BOXES WRAPPERS
+ */
+.boxes-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.boxes-wrapper > * {
+	inline-size: 100%;
+	margin-block: 0;
+}
+
+/* DEFAULT BOX
+ *
+ * Used as a general purpose box for various content areas. Has a primary background and padding.
+ */
+.box {
+	background: var(--wp--preset--color--primary);
+	inline-size: 100%;
+}

@@ -1,0 +1,44 @@
+/**
+ * MAIN: ANIMATIONS
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+:where(.animated) {
+	visibility: visible;
+	opacity: 1;
+}
+
+:where(.fade-in, .fade-in-follow, .flip-y, .marquee, .slide-in, .zoom-in, .zoom-out) {
+	animation-duration: calc(var(--transform-duration) * 2);
+	animation-timing-function: ease-in-out;
+}
+
+.fade-in {
+	animation-name: fade-in;
+}
+
+.fade-in-follow {
+	animation-name: fade-in-follow;
+}
+
+.flip-y {
+	animation-name: flip-y;
+}
+
+.marquee {
+	animation-name: marquee;
+}
+
+.slide-in {
+	animation-name: slide-in;
+}
+
+.zoom-in {
+	animation-name: zoom-in;
+}
+
+.zoom-out {
+	animation-name: zoom-out;
+}

@@ -1,0 +1,92 @@
+/**
+ * MAIN: KEYFRAMES
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+/* FADE IN */
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* FADE IN FOLLOW */
+@keyframes fade-in-follow {
+	0%,
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* FLIP Y */
+@keyframes flip-y {
+	0% {
+		transform: rotateY(0deg);
+	}
+
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+/* MARQUEE */
+@keyframes marquee {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+
+	100% {
+		transform: translate3d(-50%, 0, 0);
+	}
+}
+
+/* SLIDE IN */
+@keyframes slide-in {
+	0% {
+		transform: translateX(calc(200 * var(--f-rem)));
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+/* ZOOM IN */
+@keyframes zoom-in {
+	0% {
+		transform: scale(0.05);
+		opacity: 0;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+/* ZOOM OUT */
+@keyframes zoom-out {
+	0% {
+		transform: scale(1.1);
+		transform-origin: center center;
+		opacity: 0.1;
+	}
+
+	100% {
+		transform: scale(1);
+		transform-origin: center center;
+		opacity: 1;
+	}
+}

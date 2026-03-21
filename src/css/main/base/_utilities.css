@@ -1,0 +1,29 @@
+/**
+ * MAIN: UTILITY CLASSES
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.twb {
+	text-wrap: balance;
+}
+
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	border: 0;
+	clip-path: inset(50%);
+	block-size: 1px;
+	inline-size: 1px;
+	margin: 0;
+	white-space: nowrap;
+}

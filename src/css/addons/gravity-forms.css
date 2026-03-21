@@ -1,0 +1,12 @@
+/**
+ * ADDON: GRAVITY FORMS
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+/* stylelint-disable selector-class-pattern -- Gravity Forms doesn't follow BEM */
+.gform_wrapper {
+	display: flex;
+	flex-direction: column;
+}

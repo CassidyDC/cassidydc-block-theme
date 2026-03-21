@@ -1,0 +1,44 @@
+/**
+ * MAIN: GRIDS
+ *
+ * @package CassidyDC/BlockTheme/Styles
+ * @version 1.0.0
+ */
+
+/**
+ * GRID: DEFAULTS
+ */
+.grid {
+	display: grid;
+}
+
+.grid > * {
+	inline-size: 100%;
+}
+
+/**
+ * GRID: 4/3/2 COLUMNS
+ */
+:where(.grid-container-4) {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+:where(.grid-container-3) {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+:where(.grid-container-2) {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (width < calc((1120 / 16) * 1rem)) {
+	:where(.grid-container-4, .grid-container-3) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (width < calc((768 / 16) * 1rem)) {
+	:where(.grid-container-4, .grid-container-3, .grid-container-2) {
+		grid-template-columns: 1fr;
+	}
+}
