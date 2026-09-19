@@ -2,13 +2,13 @@
 /**
  * Theme Functions
  *
- * @package CassidyDC\BlockTheme\Functions
+ * @package CassidyDC\StarterBlockTheme\Functions
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  * @version 1.0.0
  */
 
 declare( strict_types = 1 );
-namespace CassidyDC\BlockTheme;
+namespace CassidyDC\StarterBlockTheme;
 
 /**
  * Create theme constants.

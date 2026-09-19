@@ -1,4 +1,4 @@
-# Changelog for CassidyDC Block Theme
+# Changelog for CassidyDC Starter Block Theme
 
 All notable changes to this project will be documented in this file.
 
@@ -39,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Formatted SCSS files with CassidyDC Toolset package.
 -   Updated GitHub repo URL to match move from personal account to CassidyDC.
--   Updated name from "CassidyDC WP Starter Block Theme" to "CassidyDC Block Theme".
+-   Updated name from "CassidyDC WP Starter Block Theme" to "CassidyDC Starter Block Theme".
 -   Updated namespaces and slugs to remove "WP Starter".
 
 ## [2.2.0] - 2025-02-01

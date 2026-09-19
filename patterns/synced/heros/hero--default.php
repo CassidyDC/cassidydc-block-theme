@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Synced Hero - Default
- * Slug: cassidydc-block-theme/synced-hero-default
- * Categories: cassidydc-block-theme-synced
+ * Slug: cassidydc-starter-block-theme/synced-hero-default
+ * Categories: cassidydc-starter-block-theme-synced
  * NOTE: This is a backup file and is not meant to be used. Instead, use the synced database pattern in the WP Admin (Appearance > Editor > Patterns).
  * Synced Block ID: xxxx
  * Inserter: No
  *
- * @package CassidyDC\BlockTheme\Patterns
+ * @package CassidyDC\StarterBlockTheme\Patterns
  * @version 1.0.0
  */
 

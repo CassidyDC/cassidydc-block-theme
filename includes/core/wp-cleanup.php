@@ -2,12 +2,12 @@
 /**
  * Remove unwanted Core WordPress features
  *
- * @package CassidyDC\BlockTheme\Functions
+ * @package CassidyDC\StarterBlockTheme\Functions
  * @version 1.0.0
  */
 
 declare( strict_types = 1 );
-namespace CassidyDC\BlockTheme;
+namespace CassidyDC\StarterBlockTheme;
 
 require_once get_theme_file_path( 'includes/core/wp-cleanup/wp-blocks.php' );
 require_once get_theme_file_path( 'includes/core/wp-cleanup/wp-directories.php' );

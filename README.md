@@ -1,4 +1,4 @@
-# CassidyDC Block Theme
+# CassidyDC Starter Block Theme
 
 | Table of Contents                                                     |
 | --------------------------------------------------------------------- |
@@ -17,11 +17,11 @@ For those less familiar with Block Theme development, I provide a few guidelines
 ## Quick Start Guide
 
 > [!NOTE]
-> You can run the [DDEV WP Local Setup](https://github.com/CassidyDC/ddev-wp-local-setup) package to setup a local server using this theme and the CassidyDC Toolset. Or manually clone each package with the following steps:
+> You can run the [DDEV Local WP Setup](https://github.com/CassidyDC/ddev-local-wp-setup) package to setup a local server using this theme and the CassidyDC Toolset. Or manually clone each package with the following steps:
 
-### 1. Clone the CassidyDC Block Theme locally
+### 1. Clone the CassidyDC Starter Block Theme locally
 
-In your _wp-content/themes_ directory, run `git clone git@github.com:CassidyDC/cassidydc-block-theme.git`.
+In your _wp-content/themes_ directory, run `git clone git@github.com:CassidyDC/cassidydc-starter-block-theme.git`.
 
 ### 2. Replace the theme's placeholder text
 
@@ -29,14 +29,14 @@ When you rename the theme to start your custom development, do a global **search
 
 | Text to Replace         | Type             | Used In             |
 | ----------------------- | ---------------- | ------------------- |
-| `CassidyDC\BlockTheme`  | Namespace        | All PHP files       |
-| `cassidydc-block-theme` | Slug/Text Domain | Multiple file types |
-| `CassidyDC Block Theme` | Theme Name       | `style.css`         |
+| `CassidyDC\StarterBlockTheme`  | Namespace        | All PHP files       |
+| `cassidydc-starter-block-theme` | Slug/Text Domain | Multiple file types |
+| `CassidyDC Starter Block Theme` | Theme Name       | `style.css`         |
 | `cassidydc`             | `HANDLE_PREFIX`  | `functions.php`     |
 
 ### 3. Install the development packages for the build step
 
-Copy the correct files in the [CassidyDC Toolset](https://github.com/CassidyDC/cassidydc-toolset) repo to your `wp-content` and `themes/cassidydc-block-theme` directories. Then run `npm install && composer install`
+Copy the correct files in the [CassidyDC Toolset](https://github.com/CassidyDC/cassidydc-toolset) repo to your `wp-content` and `themes/cassidydc-starter-block-theme` directories. Then run `npm install && composer install`
 
 ### 4. Install other VSCode extensions (optional)
 
@@ -108,8 +108,8 @@ If you want to go deeper, there are many free and paid courses, such as [The Joy
 
 ## What's New?
 
-View the [Changelog](https://github.com/CassidyDC/cassidydc-block-theme/blob/main/CHANGELOG.md) to see what's new.
+View the [Changelog](https://github.com/CassidyDC/cassidydc-starter-block-theme/blob/main/CHANGELOG.md) to see what's new.
 
 ## Issues?
 
-If you come across any issues, please feel free to [report them here](https://github.com/CassidyDC/cassidydc-block-theme/issues). You are also welcome to [create a pull request](https://github.com/CassidyDC/cassidydc-block-theme/pulls).
+If you come across any issues, please feel free to [report them here](https://github.com/CassidyDC/cassidydc-starter-block-theme/issues). You are also welcome to [create a pull request](https://github.com/CassidyDC/cassidydc-starter-block-theme/pulls).

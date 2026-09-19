@@ -2,12 +2,12 @@
 /**
  * Remove unwanted Core WordPress fonts
  *
- * @package CassidyDC\BlockTheme\Functions
+ * @package CassidyDC\StarterBlockTheme\Functions
  * @version 1.0.0
  */
 
 declare( strict_types = 1 );
-namespace CassidyDC\BlockTheme;
+namespace CassidyDC\StarterBlockTheme;
 
 /**
  * Remove the WordPress font library UI

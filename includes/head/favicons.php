@@ -2,12 +2,12 @@
 /**
  * Add theme favicons to site head
  *
- * @package CassidyDC\BlockTheme\Functions
+ * @package CassidyDC\StarterBlockTheme\Functions
  * @version 1.0.0
  */
 
 declare( strict_types = 1 );
-namespace CassidyDC\BlockTheme;
+namespace CassidyDC\StarterBlockTheme;
 
 /**
  * Add favicons to HTML head

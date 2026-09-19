@@ -2,12 +2,12 @@
 /**
  * Remove unwanted Core WordPress directories
  *
- * @package CassidyDC\BlockTheme\Functions
+ * @package CassidyDC\StarterBlockTheme\Functions
  * @version 1.0.0
  */
 
 declare( strict_types = 1 );
-namespace CassidyDC\BlockTheme;
+namespace CassidyDC\StarterBlockTheme;
 
 /**
  * Remove WordPress Block Directory from the editor block inserter.

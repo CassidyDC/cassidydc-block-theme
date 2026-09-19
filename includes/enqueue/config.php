@@ -2,12 +2,12 @@
 /**
  * Configuration functions to set assets properties
  *
- * @package CassidyDC\BlockTheme\Functions
+ * @package CassidyDC\StarterBlockTheme\Functions
  * @version 1.0.0
  */
 
 declare(strict_types=1);
-namespace CassidyDC\BlockTheme;
+namespace CassidyDC\StarterBlockTheme;
 
 /**
  * Sets theme assets properties
@@ -92,20 +92,20 @@ function get_editor_styles_config(): array {
 function get_block_pattern_categories_config(): array {
 	return [
 		'boxes'    => [
-			'label'       => __( 'Boxes', 'cassidydc-block-theme' ),
-			'description' => __( 'A collection of box patterns.', 'cassidydc-block-theme' ),
+			'label'       => __( 'Boxes', 'cassidydc-starter-block-theme' ),
+			'description' => __( 'A collection of box patterns.', 'cassidydc-starter-block-theme' ),
 		],
 		'heroes'   => [
-			'label'       => __( 'Heroes', 'cassidydc-block-theme' ),
-			'description' => __( 'A collection of header heroes patterns.', 'cassidydc-block-theme' ),
+			'label'       => __( 'Heroes', 'cassidydc-starter-block-theme' ),
+			'description' => __( 'A collection of header heroes patterns.', 'cassidydc-starter-block-theme' ),
 		],
 		'layouts'  => [
-			'label'       => __( 'Layouts', 'cassidydc-block-theme' ),
-			'description' => __( 'A collection of of full page layouts.', 'cassidydc-block-theme' ),
+			'label'       => __( 'Layouts', 'cassidydc-starter-block-theme' ),
+			'description' => __( 'A collection of of full page layouts.', 'cassidydc-starter-block-theme' ),
 		],
 		'sections' => [
-			'label'       => __( 'Sections', 'cassidydc-block-theme' ),
-			'description' => __( 'A collection of page sections.', 'cassidydc-block-theme' ),
+			'label'       => __( 'Sections', 'cassidydc-starter-block-theme' ),
+			'description' => __( 'A collection of page sections.', 'cassidydc-starter-block-theme' ),
 		],
 	];
 }

@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Theming - 404 Section
- * Slug: cassidydc-block-theme/theming-404-section
+ * Slug: cassidydc-starter-block-theme/theming-404-section
  * Inserter: No
  *
- * @package CassidyDC\BlockTheme\Patterns
+ * @package CassidyDC\StarterBlockTheme\Patterns
  * @version 1.0.0
  */
 
